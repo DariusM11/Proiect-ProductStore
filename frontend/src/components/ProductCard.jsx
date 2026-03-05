@@ -2,8 +2,8 @@ import { Box, Image, Text, Heading, HStack, IconButton, VStack, Input, Button } 
 import { FaEdit } from "react-icons/fa";
 import { MdDelete } from "react-icons/md";
 import React from 'react'
-import { useProductStore } from '../store/product';
-import { toaster } from "./ui/toaster";
+import { useProductStore } from '../store/product.js';
+import { toaster } from "./ui/toaster.jsx";
 import { useState } from 'react';
 import {
   DialogActionTrigger,
@@ -15,7 +15,7 @@ import {
   DialogRoot,
   DialogTitle,
   DialogTrigger,
-} from "./ui/dialog" // Adjust path if needed
+} from "./ui/dialog"
 
 export const ProductCard = ({product}) => {
 

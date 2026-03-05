@@ -1,9 +1,9 @@
 import { Box } from "@chakra-ui/react"
 import { Route, Routes } from "react-router-dom"
 import { Toaster } from "./components/ui/toaster"
-import CreatePage from "./pages/CreatePage"
-import HomePage from "./pages/HomePage"
-import NavBar from "./components/NavBar"
+import CreatePage from "./pages/CreatePage.jsx"
+import HomePage from "./pages/HomePage.jsx"
+import NavBar from "./components/NavBar.jsx"
 
 
 function App() {
